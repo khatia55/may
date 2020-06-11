@@ -1,0 +1,398 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.collapse{
+    justify-content: flex-end;
+    
+}
+.navbar-brand{
+    
+   font-size: 55px;
+  
+}
+header{
+    height: 800px;
+    background-image: url('https://i.picsum.photos/id/1029/4887/2759.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.navbar-light .navbar-brand {
+    color: white;
+    
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    font-size: 20px;
+}
+.text{
+    margin-left: 200px;
+}
+span{
+    color: rgb(102, 192, 102);
+  font-size: 60px;
+}
+.more{
+    font-size: 35px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.btt{
+    width: 100px;
+    color:rgb(102, 192, 102);
+    border: 2px solid rgb(102, 192, 102);
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+.all{
+    display: flex;
+   margin-top: -60px;
+   align-items: center;
+   justify-content: center;
+   line-height: 10px;
+}
+.one{
+    width:300px;
+    height: 200px;
+    background-color:rgb(102, 192, 102) ;
+    color: white;
+    border-radius: 10px;
+    margin-left: 40px;
+
+}
+.two{
+    width:300px;
+    height: 200px;
+    background-color:rgb(40, 40, 56);
+    color: white;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.three{
+    width:300px;
+    height: 200px;
+    background-color:white;
+    color: rgb(23, 23, 53);
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.all h4{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    border-bottom: 1px dashed;
+
+}
+.all p{
+    margin-left: 15px;
+}
+.list h1{
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.col-3{
+    background-color: white;
+    
+}
+.fas{
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    color:rgb(102, 192, 102) ;
+}
+.box p{
+    
+    margin-top: 10px;
+    font-size: 20px;
+}
+.box:hover{
+     background-color:  rgb(51, 51, 95);
+}
+.box:hover h3 { 
+    color:white;
+ }
+.box:hover p { 
+    color:white; 
+}
+.last{
+    height: 650px;
+    background-color: rgb(26,36,49);
+    background-size: cover;
+    
+    width: 100%;
+    margin-top: 25px;
+    
+}
+.last h2{
+    color: white;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.box{
+    box-shadow: 0px 0px 3px #cecece;
+    padding: 10px;
+    
+}
+.cubes{
+    width: 300px;
+    height: 400px;
+    background-color: transparent;
+    border: 2px solid rgb(102, 192, 102);
+    border-radius: 10px;
+    margin-left: 25px;
+}
+.cubes h3{
+    color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+}
+.cubes p{
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.cubes span{
+    font-size: 15px;
+    color: white;
+}
+.cubes button{
+    width: 170px;
+    height: 50px;
+    background-color: rgb(102, 192, 102);
+    border-radius: 50px;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 3px solid rgb(102, 192, 102);
+}
+.good{
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+.good h3{
+    color: rgb(102, 192, 102);
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.good h4{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.good p{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.good button{
+    width: 170px;
+    height: 50px;
+    background-color: rgb(102, 192, 102);
+    border-radius: 50px;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 3px solid rgb(102, 192, 102);
+}
+.five{
+    width: 300px;
+    height: 400px;
+    background-color: transparent;
+    border: 2px solid rgb(102, 192, 102);
+    border-radius: 10px;
+    margin-left: 25px;
+}
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+ .five button{
+    width: 170px;
+    height: 50px;
+    background-color: rgb(102, 192, 102);
+    border-radius: 50px;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 3px solid rgb(102, 192, 102);
+    margin: auto;
+}
+.five h1{
+    color: rgb(102, 192, 102);
+    text-align: center;
+    justify-content: center;
+}
+.five h4{
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+.five p{
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.par p{
+    font-size: 15px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+.green{
+    height: 190px;
+    background-color:rgb(102, 192, 102) ;
+}
+.green p{
+    font-size: 25px;
+    color: white;
+    line-height: 20px;
+   
+    
+}
+.green button{
+    
+    width: 170px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 20px;
+    color: rgb(102, 192, 102);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 3px solid white;
+}
+.info{
+    width: 50%;
+}
+.info h3{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.info h4{
+    font-size: 30px;
+    margin-left: 100px;
+}
+.info p{
+    margin-left: 100px;
+    line-height: 10px;
+    margin-top: 20px;
+}
+.list ul li{
+    margin-left: 100px;
+    list-style: none;
+    
+}
+.list ul li::before{
+        display: inline-block;
+        font-family: "Font Awesome 5 Free"; 
+        font-weight: 900; 
+        content: "\f061";
+        margin-right: 5px;
+        color:rgb(84,88,94);
+    
+}
+.together{
+    display: flex;
+}
+.photo{
+    width: 50%;
+}
+.jess{
+    border: 2px solid rgb(102, 192, 102);
+    border-radius: 20px;
+    padding: 4px;
+    width: 200px;
+    height: 90px;
+}
+.jess-btn{
+    
+        border-radius: 20px;
+        padding: 15px 60px;
+        background-color: rgb(102, 192, 102);
+        height: 70px;
+        color: white;
+    
+}
+.costumersbi{
+    height: 800px;
+    background-image: url(bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.costumers{
+    width: 500px;
+    height: 700px;
+    background-color:transparent;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.imagerad img{
+    width:70px;
+    border-radius: 50px;
+}
+.imagerad{
+    align-items: center;
+    justify-content: center;
+}
+.background{
+    height: 800px;
+    background-image: url('bg.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.costumers h3{
+color: white;
+ text-align:center ;
+ justify-content: center;
+ align-items: center;
+  margin-top: 25px;
+}
